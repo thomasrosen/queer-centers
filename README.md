@@ -2,6 +2,7 @@
 
 Eine Karte über Jugendzentren oder andere hilfreiche Anlaufstellen für Queere Menschen.
 
+Hier kannst du die Karte anschauen: [](https://thomasrosen.github.io/queer-centers/)
 
 ------------------------
 
