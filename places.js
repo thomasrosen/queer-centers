@@ -36,5 +36,16 @@ var places = [
     "website": "https://www.mhc-hh.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
     "tags": ["cafe", "youthcenter"]
+  },
+  {
+    "name": "Sunrise",
+    "lat": 51.5173371,
+    "lng": 7.467899,
+    "address": "Geschwister-Scholl-Straße 33-37, 44135 Dortmund, Germany",
+    "min_age": -1,
+    "max_age": 23,
+    "website": "http://www.sunrise-dortmund.de/",
+    "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
+    "tags": ["youthcenter"]
   }
 ];
