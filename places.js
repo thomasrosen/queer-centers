@@ -46,7 +46,7 @@ var places = [
     "max_age": 23,
     "website": "http://www.sunrise-dortmund.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
-    "tags": ["youthcenter"]
+    "tags": ["youthcenter", "education"]
   },
   {
     "name": "diversity München",
@@ -57,6 +57,17 @@ var places = [
     "max_age": 27,
     "website": "https://diversity-muenchen.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
-    "tags": ["youthcenter", "cafe"]
+    "tags": ["youthcenter", "cafe", "education"]
+  },
+  {
+    "name": "Gerede e.V.",
+    "lat": 51.0651315,
+    "lng": 13.7571573,
+    "address": "Prießnitzstraße 18, 01099 Dresden",
+    "min_age": 14,
+    "max_age": -1,
+    "website": "http://www.gerede-dresden.de/",
+    "this_is_a_place_for": ["queer", "undecided", "hetero-friends", "family"],
+    "tags": ["education"]
   }
 ];
