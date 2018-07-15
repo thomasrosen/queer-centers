@@ -42,6 +42,8 @@
 			
 			var geojsonFeature = []
 			
+			console.log("places:", places)
+			
 			for (let place of places) {
 				geojsonFeature.push({
 					type: "Feature",
@@ -63,15 +65,15 @@
 				})
 			}
 			
+			console.log("geojsonFeature:", geojsonFeature)
+			
 			var markerLayer = L.geoJSON(geojsonFeature, {
 				onEachFeature: function(feature, layer) {
 					if (feature.properties) {
 						let popupContent = "<h1>"+feature.properties.name+"</h1> <p class='address'>"+feature.properties.address+"</p><hr>Webseite: <a href='"+feature.properties.website+"'>"+feature.properties.website+"</a>"
+						console.log("popupContent:", popupContent)
 						layer.bindPopup(popupContent)
 					}
-				},
-				filter: function(feature, layer) {
-					return feature.properties.show_on_map
 				}
 			}).addTo(mainMap)
 		</script>
