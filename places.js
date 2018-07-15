@@ -7,7 +7,7 @@ var places = [
     "min_age": 14,
     "max_age": 27,
     "website": "http://www.anyway-koeln.de/",
-    "who_is_welcome": ["queer", "gay", "lesbian", "trans", "undecided", "hetero-friends"],
+    "this_is_a_place_for": ["queer", "gay", "lesbian", "trans", "undecided", "hetero-friends"],
     "tags": ["youthcenter", "cafe", "bar"]
   }
 ];
