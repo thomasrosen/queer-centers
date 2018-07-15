@@ -36,5 +36,5 @@ var places = [
     "website": "https://www.mhc-hh.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
     "tags": ["cafe", "youthcenter"]
-  },
+  }
 ];
