@@ -142,6 +142,8 @@
 					if (feature.properties) {
 
 let popupContent = `
+<div class="popupBackground changingBackgroundColors">
+<div class="popupContent>
 <h1>${feature.properties.name}</h1>
 
 ${(feature.properties.address != "" ? `<p class="address">${feature.properties.address}</p>` : "")}
@@ -158,6 +160,9 @@ feature.properties.min_age == -1 && feature.properties.max_age == -1
 ? "Für Menschen von zirka "+feature.properties.min_age+" bis zirka "+feature.properties.max_age+" Jahre."
 : ""
 ))))}</p>
+
+</div>
+</div>
 `
 						
 						layer.bindPopup(popupContent)
