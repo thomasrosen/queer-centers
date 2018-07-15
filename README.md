@@ -9,6 +9,7 @@ Alle Orte werden in der places.js Datei gespeichert.
 Du kannst die Datei einfach bearbeiten und danach eine Pull request erstellen. Gib in der Beschreibung möglichst Quellen an und die Daten zu verifiezieren.
 
 Der Datensatz für einen Ort ist wie folgt aufgebaut (Hier als Beispiel der für das Anyway in Köln):
+
     {
         "name": "Anyway",
         "lat": 50.9419,
