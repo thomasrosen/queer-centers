@@ -16,17 +16,62 @@
 	</head>
 	<body>
 		
-		<div id="mapid"></div>
+		<div id="mainMapID"></div>
 	
 		
 		<script>
-		var mymap = L.map('mapid').setView([51, 10], 6);
+		var mainMap = L.map('mainMapID').setView([51, 10], 6);
 			
 		var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 19,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		});
-		OpenStreetMap_Mapnik.addTo(mymap);
+		OpenStreetMap_Mapnik.addTo(mainMap);
+			
+			
+			
+			
+			
+			
+function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent);
+    }
+}
+
+var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-104.99404, 39.75621]
+    }
+};
+
+L.geoJSON(geojsonFeature, {
+    onEachFeature: onEachFeature
+}).addTo(mainMap);
+			
+			
+			
+			
+			
+			
+			/*
+			var myLines = [{
+    "type": "LineString",
+    "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+}, {
+    "type": "LineString",
+    "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+}];
+			var myLayer = L.geoJSON().addTo(mainMap);
+myLayer.addData(geojsonFeature);*/
 		</script>
 	</body>
 </html>
