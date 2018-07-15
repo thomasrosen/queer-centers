@@ -1,4 +1,4 @@
-[
+var places = [
   {
     "name": "Anyway",
     "lat": 50.9419,
@@ -10,4 +10,4 @@
     "for_whom": ["queer", "gay", "lesbian", "trans", "undecided", "hetero-friends"],
     "tags": ["youthcenter", "cafe", "bar"]
   }
-]
+];
