@@ -9,17 +9,93 @@
 		<script src="https://thomasrosen.github.io/queer-centers/places.js"></script>
 		
 		<style>
-		#mainMapID {
-			position: absolute !important;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-		}
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.header {
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				height 64px;
+				
+				padding: 0 16px;
+				
+				color: black;
+				background: white;
+				
+				font-family: Futura;
+				font-size: 32px;
+				line-height: 64px;
+			}
+			.header .infoLink {
+				position: absolute;
+				top: 0;
+				right: 16px;
+				height: 64px;
+				
+				font-family: Times;
+				color: blue;
+				font-size: 16px;
+				text-decoration: underline;
+			}
+			.headerBorderBottom {
+				position: absolute;
+				top: 64px;
+				right: 0;
+				left: 0;
+				height 6px;
+			}
+			
+			#mainMapID {
+				position: absolute !important;
+				top: 70px;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}
+			
+			
+			.changingBackgroundColors { 
+				background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+				background-size: 1800% 1800%;
+
+				-webkit-animation: rainbow 18s ease infinite;
+				-z-animation: rainbow 18s ease infinite;
+				-o-animation: rainbow 18s ease infinite;
+				animation: rainbow 18s ease infinite;
+			}
+
+			@-webkit-keyframes rainbow {
+				0%{background-position:0% 82%}
+				50%{background-position:100% 19%}
+				100%{background-position:0% 82%}
+			}
+			@-moz-keyframes rainbow {
+				0%{background-position:0% 82%}
+				50%{background-position:100% 19%}
+				100%{background-position:0% 82%}
+			}
+			@-o-keyframes rainbow {
+				0%{background-position:0% 82%}
+				50%{background-position:100% 19%}
+				100%{background-position:0% 82%}
+			}
+			@keyframes rainbow { 
+				0%{background-position:0% 82%}
+				50%{background-position:100% 19%}
+				100%{background-position:0% 82%}
+			}
 		</style>
 	</head>
 	<body>
 		
+		<div class="header">
+			Queer Centers
+			<a class="infoLink" href="https://github.com/thomasrosen/queer-center" target"_blank">Infos</a>
+		</div>
+		<div class="headerBorderBottom changingBackgroundColors"></div>
 		<div id="mainMapID"></div>
 	
 		
