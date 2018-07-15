@@ -71,8 +71,7 @@ let popupContent = `
 <p class="address">${feature.properties.address}</p>
 Webseite: <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a>
 <hr>
-<p>Für Menschen von zirka ${feature.properties.min_age} bis ${feature.properties.max_age} Jahre.<br>
-
+<p>${(feature.properties.min_age==-1 && feature.properties.max_age==-1 ? "Für Menschen jeden Alters." : (feature.properties.min_age==-1 && feature.properties.max_age!=-1 ? "Für Menschen bis zirka ${feature.properties.max_age} Jahre." : (feature.properties.min_age!=-1 && feature.properties.max_age==-1 ? "Für Menschen ab zirka ${feature.properties.min_age} Jahre." : (feature.properties.min_age!=-1 && feature.properties.max_age!=-1 ? "Für Menschen von zirka ${feature.properties.min_age} bis zirka ${feature.properties.max_age} Jahre.")))}
 </p>
 `
 						
