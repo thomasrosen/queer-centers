@@ -9,7 +9,7 @@ Eine Karte über Jugendzentren oder andere hilfreiche Anlaufstellen für Queere 
 ## Einen Ort hinzufügen oder bearbeiten:
 
 Alle Orte werden in der places.js Datei gespeichert.
-Du kannst die Datei einfach bearbeiten und danach eine Pull request erstellen. Gib in der Beschreibung möglichst Quellen an und die Daten zu verifiezieren.
+Du kannst die Datei einfach bearbeiten und danach eine Pull-Request erstellen. Gib in der Beschreibung möglichst Quellen an um die Daten zu verifiezieren.
 
 Der Datensatz für einen Ort ist wie folgt aufgebaut (Hier als Beispiel der für das Anyway in Köln):
 
