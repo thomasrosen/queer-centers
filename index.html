@@ -50,7 +50,7 @@
 						min_age: (place.min_age ? place.min_age : 0),
 						max_age: (place.max_age ? place.max_age : 99999),
 						website: (place.website ? place.website : ""),
-						for_whom: (place.for_whom ? place.for_whom : []),
+						this_is_a_place_for: (place.this_is_a_place_for ? place.this_is_a_place_for : []),
 						tags: (place.tags ? place.tags : [])
 					},
 					geometry: {
@@ -65,7 +65,17 @@
 			var markerLayer = L.geoJSON(geojsonFeature, {
 				onEachFeature: function(feature, layer) {
 					if (feature.properties) {
-						let popupContent = "<h1>"+feature.properties.name+"</h1> <p class='address'>"+feature.properties.address+"</p><hr>Webseite: <a href='"+feature.properties.website+"'>"+feature.properties.website+"</a>"
+
+let popupContent = `
+<h1>${feature.properties.name}</h1>
+<p class="address">${feature.properties.address}</p>
+Webseite: <a href="${feature.properties.website}" target="_blank">${feature.properties.website}</a>
+<hr>
+<p>Für Menschen von zirka ${feature.properties.min_age} bis ${feature.properties.max_age} Jahre.<br>
+
+</p>
+`
+						
 						console.log("popupContent:", popupContent)
 						layer.bindPopup(popupContent)
 					}
