@@ -40,18 +40,7 @@
 			
 			// add the markers:
 			
-			var geojsonFeature = [] /*[{
-				"type": "Feature",
-				"properties": {
-					"name": "Coors Field",
-					"amenity": "Baseball Stadium",
-					"popupContent": "This is where the Rockies play!"
-				},
-				"geometry": {
-					"type": "Point",
-					"coordinates": [-104.99404, 39.75621]
-				}
-			}];*/
+			var geojsonFeature = []
 			
 			for (let place of places) {
 				geojsonFeature.push({
@@ -77,7 +66,7 @@
 			var markerLayer = L.geoJSON(geojsonFeature, {
 				onEachFeature: function(feature, layer) {
 					if (feature.properties) {
-						let popupContent = "<h1>"+feature.properties.name"</h1> <p class='address'>"+feature.properties.address"</p><hr>Webseite: <a href='"+feature.properties.website"'>"+feature.properties.website"</a>"
+						let popupContent = "<h1>"+feature.properties.name+"</h1> <p class='address'>"+feature.properties.address+"</p><hr>Webseite: <a href='"+feature.properties.website+"'>"+feature.properties.website+"</a>"
 						layer.bindPopup(popupContent)
 					}
 				},
