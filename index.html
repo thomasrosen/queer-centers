@@ -36,9 +36,7 @@
 			// add the markers:
 			
 			var geojsonFeature = []
-			
-			console.log("places:", places)
-			
+						
 			for (let place of places) {
 				geojsonFeature.push({
 					type: "Feature",
@@ -59,9 +57,7 @@
 					}
 				})
 			}
-			
-			console.log("geojsonFeature:", geojsonFeature)
-			
+						
 			var markerLayer = L.geoJSON(geojsonFeature, {
 				onEachFeature: function(feature, layer) {
 					if (feature.properties) {
@@ -84,13 +80,10 @@ feature.properties.min_age == -1 && feature.properties.max_age == -1
 ))))}</p>
 `
 						
-						console.log("popupContent:", popupContent)
 						layer.bindPopup(popupContent)
 					}
 				}
 			}).addTo(mainMap)
-			
-			console.log("mainMap:", mainMap)
 		</script>
 	</body>
 </html>
