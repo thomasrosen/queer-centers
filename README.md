@@ -3,6 +3,9 @@
 Eine Karte über Jugendzentren oder andere hilfreiche Anlaufstellen für Queere Menschen.
 
 
+------------------------
+
+
 ## Einen Ort hinzufügen oder bearbeiten:
 
 Alle Orte werden in der places.js Datei gespeichert.
@@ -24,7 +27,7 @@ Der Datensatz für einen Ort ist wie folgt aufgebaut (Hier als Beispiel der für
 
 
 ### Kategorien für "this_is_a_place_for":
-_Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategorie fehlt._
+Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategorie fehlt.
 * queer _(Nutze dies wenn alle nicht-heteronormativ-idedifizierenden-Menschen willkommen sind.)_
 * hetero-friends
 * undecided
@@ -41,8 +44,28 @@ _Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategor
 * genderfluid
 
 ### "tags":
-_Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategorie fehlt._
+Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategorie fehlt.
 * youthcenter
 * cafe
 * bar
 * support-group
+
+
+------------------------
+
+## Ideen für weitere Informationen:
+Gedanken zu weiteren Informationen, die zurzeit nicht gespeichert werden.
+
+### Machbar:
+* Eröffnungsdatum
+* Schließungsdatum
+* Beschreibung (Wie ist das mit dem Übersetzten der Seite? Merhere BEschreibungen?)
+
+### Infos die schwer aktuell zu halten sind:
+* Öffnungszeiten
+* Email
+* Telefon
+* Verstandene Sprachen an dem Ort
+
+
+
