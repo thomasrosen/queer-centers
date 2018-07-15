@@ -69,5 +69,16 @@ var places = [
     "website": "http://www.gerede-dresden.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends", "family"],
     "tags": ["education"]
+  },
+  {
+    "name": "GAP",
+    "lat": 50.7401353,
+    "lng": 7.1233544,
+    "address": "Obere Wilhelmstraße 29, 53225 Bonn, Germany",
+    "min_age": 14,
+    "max_age": 27,
+    "website": "http://gap-in-bonn.de",
+    "this_is_a_place_for": ["queer", "undecided", "hetero-friends", "family"],
+    "tags": ["youthcenter", "education"]
   }
 ];
