@@ -1,5 +1,5 @@
 /*
-template:
+Template:
   {
     "name": "",
     "lat": ,
@@ -47,5 +47,16 @@ var places = [
     "website": "http://www.sunrise-dortmund.de/",
     "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
     "tags": ["youthcenter"]
+  },
+  {
+    "name": "diversity München",
+    "lat": 48.1331836,
+    "lng": 11.5713013,
+    "address": "Blumenstraße 11, 80331 München, Germany",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://diversity-muenchen.de/",
+    "this_is_a_place_for": ["queer", "undecided", "hetero-friends"],
+    "tags": ["youthcenter", "cafe"]
   }
 ];
