@@ -49,7 +49,9 @@ Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategori
 * youthcenter
 * cafe
 * bar
-* support-group
+* education
+* youthgroup
+* group
 
 
 ------------------------
