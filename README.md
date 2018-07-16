@@ -10,7 +10,7 @@ Hier kannst du die Karte anschauen: [https://thomasrosen.github.io/queer-centers
 ## Einen Ort hinzufügen oder bearbeiten:
 
 Alle Orte werden in der places.js Datei gespeichert.
-Du kannst die Datei einfach bearbeiten und danach eine Pull-Request erstellen. Gib in der Beschreibung möglichst Quellen an um die Daten zu verifiezieren.
+Du kannst die Datei einfach bearbeiten und danach eine Pull-Request erstellen. Gib in der Beschreibung möglichst Quellen an um die Daten zu verifizieren.
 
 Der Datensatz für einen Ort ist wie folgt aufgebaut (Hier als Beispiel der für das Anyway in Köln):
 
@@ -60,7 +60,7 @@ Gedanken zu weiteren Informationen, die zurzeit nicht gespeichert werden.
 ### Machbar:
 * Eröffnungsdatum
 * Schließungsdatum
-* Beschreibung (Wie ist das mit dem Übersetzten der Seite? Merhere BEschreibungen?)
+* Beschreibung (Wie ist das mit dem Übersetzten der Seite? Mehrere Beschreibungen?)
 
 ### Infos die schwer aktuell zu halten sind:
 * Öffnungszeiten
