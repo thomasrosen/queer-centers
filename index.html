@@ -176,6 +176,9 @@
 					}
 				})
 			}
+				
+			var markerCluster = L.markerClusterGroup()
+
 						
 			var markerLayer = L.geoJSON(geojsonFeature, {
 				onEachFeature: function(feature, layer) {
@@ -208,7 +211,10 @@ feature.properties.min_age == -1 && feature.properties.max_age == -1
 						layer.bindPopup(popupContent)
 					}
 				}
-			}).addTo(mainMap)
+			}) // .addTo(mainMap)
+			markerCluster.addLayer(markerLayer)
+			
+			mainMap.addLayer(markerCluster)
 			}
 			
 			
