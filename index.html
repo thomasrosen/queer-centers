@@ -208,11 +208,13 @@ feature.properties.min_age == -1 && feature.properties.max_age == -1
 </div>
 `
 						
-						layer.bindPopup(popupContent)
+						//layer.bindPopup(popupContent)
+						let newMarker = L.marker([feature.properties.lng, feature.properties.lat], {}).addTo(map).bindPopup(popupContent)
+						markerCluster.addLayer(newMarker)
 					}
 				}
 			}) // .addTo(mainMap)
-			markerCluster.addLayer(markerLayer)
+			// markerCluster.addLayer(markerLayer)
 			
 			mainMap.addLayer(markerCluster)
 			}
