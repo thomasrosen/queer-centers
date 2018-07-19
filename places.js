@@ -226,8 +226,8 @@ var places = [
   },
   {
     "name": "Queerlaut Bielefeld",
-    "lat": 52.0741504,
-    "lng": 8.5937618,
+    "lat": 52.073976,
+    "lng": 8.596122,
     "address": "AWO Kinder- und Jugendhaus Brake, Glückstädterstr. 25, 33729 Bielefeld",
     "min_age": 16,
     "max_age": 27,
