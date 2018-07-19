@@ -260,7 +260,7 @@ var places = [
   {
     "name": "Young Heroes Mönchengladbach",
     "lat": 51.1962811,
-    "lng": 51.1962811,
+    "lng": 6.4220063,
     "address": "Aidshilfe Mönchengladbach, August-Pieper-Straße 1, 41061 Mönchengladbach",
     "min_age": 14,
     "max_age": 21,
