@@ -216,7 +216,7 @@ var places = [
   {
     "name": "All the same",
     "lat": 52.2861503,
-    "lng": ,8.9063873,
+    "lng": 8.9063873,
     "address": "Juxbude Minden, Königswall 101, 32423 Minden",
     "min_age": 14,
     "max_age": 21,
@@ -276,7 +276,7 @@ var places = [
     "min_age": 14,
     "max_age": 26,
     "website": "https://www.facebook.com/QueereJugendgruppePaderborn/",
-    "this_is_a_place_for": ["gay", "lesbian", "bi", "trans", "queer", "undecided"],
+    "this_is_a_place_for": ["queer", "undecided"],
     "tags": ["youthgroup"]
   },
   {
