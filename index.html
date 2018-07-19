@@ -209,7 +209,8 @@ feature.properties.min_age == -1 && feature.properties.max_age == -1
 `
 						
 						//layer.bindPopup(popupContent)
-						let newMarker = L.marker([feature.properties.lng, feature.properties.lat], {}).addTo(map).bindPopup(popupContent)
+						let newMarker = L.marker([feature.properties.lng, feature.properties.lat], {})
+						newMarker.bindPopup(popupContent)
 						markerCluster.addLayer(newMarker)
 					}
 				}
