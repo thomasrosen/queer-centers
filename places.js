@@ -425,7 +425,7 @@ var places = [
   {
     "name": "Mindful Warendorf",
     "lat": 51.9472967,
-    "lng": ,8.0081955,
+    "lng": 8.0081955,
     "address": "Jugendhaus Warendorf, Beckumer Straße 9, 48231 Warendorf",
     "min_age": 14,
     "max_age": 20,
@@ -513,7 +513,7 @@ var places = [
   {
     "name": "TOGETHER Mülheim",
     "lat": 51.4252333,
-    "lng": ,6.8806113,
+    "lng": 6.8806113,
     "address": "Teinerstraße 26, 45468 Mülheim",
     "min_age": -1,
     "max_age": 27,
