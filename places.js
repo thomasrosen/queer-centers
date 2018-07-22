@@ -366,5 +366,203 @@ var places = [
     "website": "https://www.facebook.com/Puzzles-Jugendtreff-im-andersROOM-615735518573140",
     "this_is_a_place_for": ["queer", "undecided", "friends"],
     "tags": ["youthcenter"]
+  },
+  {
+    "name": "BJ Wuppertal",
+    "lat": 51.251809,
+    "lng": 7.1119574,
+    "address": "BJ Wuppertal e.V. c/o Stadtteiltreff Nützenberg, Kyffhäuserstraße 86, 42115 Wuppertal",
+    "min_age": 14,
+    "max_age": 27,
+    "website": "http://bj-wuppertal.de/",
+    "this_is_a_place_for": ["queer", "undecided", "friends"],
+    "tags": ["youthgroup"]
+  },
+  {
+    "name": "GetInn Gütersloh",
+    "lat": 51.9021432,
+    "lng": 8.3750429,
+    "address": "Bauteil5, Bogenstraße 8-10, 33330 Gütersloh",
+    "min_age": -1,
+    "max_age": -1,
+    "website": "https://www.getinn.de/",
+    "this_is_a_place_for": ["lesbian", "gay"],
+    "tags": ["youthcenter"]
+  },
+  {
+    "name": "YoHo Siegen",
+    "lat": 50.8805534,
+    "lng": 8.0054913,
+    "address": "andersROOM, Freudenbergerstraße 67, 57072 Siegen",
+    "min_age": 16,
+    "max_age": 27,
+    "website": "http://www.yoho-siegen.de/",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["youthcenter", "cafe", "education"]
+  },
+  {
+    "name": "Queerschlag Hagen",
+    "lat": 51.363064,
+    "lng": 51.363064,
+    "address": "AIDS-Hilfe Hagen, Körnerstraße 82c, 58095 Hagen",
+    "min_age": -1,
+    "max_age": 25,
+    "website": "http://queerschlag-hagen.de/",
+    "this_is_a_place_for": ["queer", "trans", "inter", "undecided"],
+    "tags": ["youthgroup"]
+  },
+  {
+    "name": "TOGETHER Gelsenkirchen",
+    "lat": 51.5069508,
+    "lng": 7.1030501,
+    "address": "Wildenbruchstr. 13, 45888 Gelsenkirchen",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://together-virtuell.de/",
+    "this_is_a_place_for": ["queer", "undecided", "friends"],
+    "tags": ["cafe"]
+  },
+  {
+    "name": "Mindful Warendorf",
+    "lat": 51.9472967,
+    "lng": ,8.0081955,
+    "address": "Jugendhaus Warendorf, Beckumer Straße 9, 48231 Warendorf",
+    "min_age": 14,
+    "max_age": 20,
+    "website": "http://mindful-jugendhilfe.de/schwul-lesbische-angebote.html",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["youthgroup"]
+  },
+  {
+    "name": "PULS Düsseldorf",
+    "lat": 51.2158695,
+    "lng": 6.7810616,
+    "address": "Jugendzentrum PULS, Corneliusstraße 28, 40215 Düsseldorf",
+    "min_age": -1,
+    "max_age": -1,
+    "website": "http://www.puls-duesseldorf.de/",
+    "this_is_a_place_for": ["queer", "hetero", "undecided"],
+    "tags": ["youthcenter"]
+  },
+  {
+    "name": "queerblick",
+    "lat": 51.5175133,
+    "lng": 7.4675755,
+    "address": "Fritz-Henßler-Haus, Geschwister-Scholl-Straße 33-37, 44135 Dortmund",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://www.facebook.com/querblick",
+    "this_is_a_place_for": ["queer", "hetero", "undecided"],
+    "tags": ["group", "mediaprojects"]
+  },
+  {
+    "name": "Mosaik Bielefeld",
+    "lat": 52.0304335,
+    "lng": 8.5270806,
+    "address": "Frauenkulturzentrum, Meller Straße 2, 33613 Bielefeld",
+    "min_age": 14,
+    "max_age": 26,
+    "website": "http://www.maedchentreff-bielefeld.de/angebote/angebote_mosaik.html",
+    "this_is_a_place_for": ["lesbian", "bi", "friends"],
+    "tags": ["youthcenter"]
+  },
+  {
+    "name": "Café freiRaum Bochum",
+    "lat": 51.4858173,
+    "lng": 7.2176003,
+    "address": "Rosa Strippe, Kortumstraße 143, 44787 Bochum",
+    "min_age": 14,
+    "max_age": 24,
+    "website": "http://www.freiraum-bochum.de/",
+    "this_is_a_place_for": ["queer", "hetero", "undecided", "friends"],
+    "tags": ["cafe"]
+  },
+  {
+    "name": "TOGETHER Trans*Treff Mülheim",
+    "lat": 51.4252599,
+    "lng": ,6.8806323,
+    "address": "together, Teinerstraße 26, 45468 Mülheim",
+    "min_age": 14,
+    "max_age": 27,
+    "website": "http://together-virtuell.de/920-trans-jugendtreff.html",
+    "this_is_a_place_for": ["trans"],
+    "tags": ["youthgroup"]
+  },
+  {
+    "name": "Track Münster",
+    "lat": 51.9639951,
+    "lng": 7.6500594,
+    "address": "Alte Dechanei, Dechaneistr. 14, 48145 Münster",
+    "min_age": 14,
+    "max_age": 27,
+    "website": "http://xn--track-mnster-jlb.de/",
+    "this_is_a_place_for": ["queer", "undecided", "friends"],
+    "tags": ["youthcenter"]
+  },
+  {
+    "name": "No Name Oberhausen",
+    "lat": 51.4675315,
+    "lng": 6.8512922,
+    "address": "Im Place2be (Seiteneingang Hermann-Albertz-Straße), Lothringer Straße 20, 46045 Oberhausen",
+    "min_age": -1,
+    "max_age": 26,
+    "website": "https://www.facebook.com/nO.nameOberhausen?fref=ts",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["youthgroup"]
+  },
+  {
+    "name": "TOGETHER Mülheim",
+    "lat": 51.4252333,
+    "lng": ,6.8806113,
+    "address": "Teinerstraße 26, 45468 Mülheim",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://www.facebook.com/togethervirtuell/",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["cafe"]
+  },
+  {
+    "name": "TOGETHER Essen",
+    "lat": 51.4635796,
+    "lng": 7.013315,
+    "address": "Kleine Stoppenberger Str. 13 - 15, 45141 Essen",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://www.facebook.de/togethervirtuell",
+    "this_is_a_place_for": ["queer", "undecided", "friend"],
+    "tags": ["youthcenter"]
+  },
+  {
+    "name": "TOGETHER Krefeld",
+    "lat": 51.3331283,
+    "lng": 6.5676698,
+    "address": "Neue Linner Str. 61, 47799 Krefeld",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "http://together-virtuell.de/",
+    "this_is_a_place_for": ["queer", "undecided", "friend"],
+    "tags": ["cafe"]
+  },
+  {
+    "name": "TOGETHER Dinslaken",
+    "lat": 51.5611897,
+    "lng": 6.7322726,
+    "address": "Altes Hexenhaus, Brückstr. 11, 46535 Dinslaken",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "http://together-virtuell.de/",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["cafe"]
+  },
+  {
+    "name": "TOGETHER Kleve",
+    "lat": 51.7979334,
+    "lng": 6.1414914,
+    "address": "Radhaus, Sommerdeich 37, 47533 Kleve",
+    "min_age": -1,
+    "max_age": 27,
+    "website": "https://together-virtuell.de/",
+    "this_is_a_place_for": ["queer", "undecided"],
+    "tags": ["cafe", "youthcenter"]
   }
 ];
