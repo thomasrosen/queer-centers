@@ -403,7 +403,7 @@ var places = [
   {
     "name": "Queerschlag Hagen",
     "lat": 51.363064,
-    "lng": 51.363064,
+    "lng": 7.4647466,
     "address": "AIDS-Hilfe Hagen, Körnerstraße 82c, 58095 Hagen",
     "min_age": -1,
     "max_age": 25,
