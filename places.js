@@ -480,11 +480,11 @@ var places = [
   {
     "name": "TOGETHER Trans*Treff Mülheim",
     "lat": 51.4252599,
-    "lng": ,6.8806323,
+    "lng": 6.8806323,
     "address": "together, Teinerstraße 26, 45468 Mülheim",
     "min_age": 14,
     "max_age": 27,
-    "website": "http://together-virtuell.de/920-trans-jugendtreff.html",
+    "website": "https://together-virtuell.de/",
     "this_is_a_place_for": ["trans"],
     "tags": ["youthgroup"]
   },
