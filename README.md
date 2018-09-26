@@ -69,6 +69,3 @@ Gedanken zu weiteren Informationen, die zurzeit nicht gespeichert werden.
 * Email
 * Telefon
 * Verstandene Sprachen an dem Ort
-
-
-
