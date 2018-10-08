@@ -29,7 +29,7 @@ Der Datensatz für einen Ort ist wie folgt aufgebaut (Hier als Beispiel der für
 
 ### Kategorien für "this_is_a_place_for":
 Die Liste hat keine bestimmte Reihenfolge. Eröffne ein Issue wenn eine Kategorie fehlt.
-* queer _(Nutze dies wenn alle nicht-heteronormativ-idedifizierenden-Menschen willkommen sind.)_
+* queer _(Nutze dies wenn alle nicht-heteronormativ-identifizierenden-Menschen willkommen sind.)_
 * hetero-friends
 * undecided
 * a-sexual
