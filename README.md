@@ -1,5 +1,10 @@
 # Queer-Centers
 
+This is repo was just a concept. The working website can be found under: https://queermap.qiekub.com/
+The repos are: https://github.com/thomasrosen/queermap-firebase-hosting and https://github.com/thomasrosen/queermap-firebase-functions
+
+------------------------
+
 Eine Karte über Jugendzentren oder andere hilfreiche Anlaufstellen für Queere Menschen.
 
 Hier kannst du die Karte anschauen: [https://thomasrosen.github.io/queer-centers/](https://thomasrosen.github.io/queer-centers/)
